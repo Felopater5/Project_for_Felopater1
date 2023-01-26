@@ -66,3 +66,4 @@ private void EditBtn_Click(object sender, EventArgs e)
         else
         {
             string Query = "Update Department set DeotName='{0}' where DeptId={1}";
+            Query = string.Format(Query, DeptName.Text, key);
