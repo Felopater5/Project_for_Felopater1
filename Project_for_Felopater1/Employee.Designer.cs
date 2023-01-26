@@ -48,4 +48,5 @@
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.ComboBox cbEmpGen;
         private System.Windows.Forms.ComboBox CbDeptIdEmp;
+        private System.ComponentModel.BackgroundWorker backgroundWorker1;
     }
