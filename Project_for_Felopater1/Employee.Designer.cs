@@ -54,4 +54,8 @@
         private Guna.UI2.WinForms.Guna2DataGridView EmpList;
         private System.Windows.Forms.Button AddBtn;
         private System.Windows.Forms.Button EditBtn;
+        private System.Windows.Forms.Label label8;
+        private System.Windows.Forms.Label label9;
+        private System.Windows.Forms.Label label10;
+        private System.Windows.Forms.Label label11;
     }
