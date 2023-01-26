@@ -15,6 +15,13 @@ namespace Project_for_Felopater1
         private DataTable dt;
         private SqlDataAdapter sda;
         private string Constr;
+        public Functions()
+        {
+            Constr = @"Data Source=.;Initial Catalog=Emp1;Integrated Security=True;Pooling=False";
+            con = new SqlConnection(Constr);
+            cmd = new SqlCommand();
+            cmd.Connection = con;
+        }
 
     }
 }
