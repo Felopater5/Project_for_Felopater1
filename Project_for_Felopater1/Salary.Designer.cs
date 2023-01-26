@@ -51,5 +51,7 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label2;
         document.getElementById("image").value.split('.')[1]
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label label8;
     }
 }
