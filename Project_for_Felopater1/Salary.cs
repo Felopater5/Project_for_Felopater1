@@ -55,6 +55,12 @@ namespace Project_for_Felopater1
             }
             else
             {
+                d = Convert.ToInt32(DAYS.Text);
+                SalAmount.Text = "Rs " + (d * Dsal);
 
+            }
+
+        }
+        int Key = 0;
 
 
