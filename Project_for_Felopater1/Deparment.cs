@@ -24,3 +24,4 @@ namespace Project_for_Felopater1
     string Query = "Select * from Department";
     DeptList.DataSource = con.GetData(Query);
 }
+private void AddBtn_Click(object sender, EventArgs e)
