@@ -79,3 +79,7 @@ namespace Project_for_Felopater1
             }
 
         }
+        private void Salary_Load(object sender, EventArgs e)
+        {
+
+        }
