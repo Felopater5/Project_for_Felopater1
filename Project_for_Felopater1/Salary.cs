@@ -49,6 +49,8 @@ namespace Project_for_Felopater1
             {
                 SalAmount.Text = "Rs " + (d * Dsal);
             }
+            else if (Convert.ToInt32(DAYS.Text) > 31)
+            {
 
 
 
