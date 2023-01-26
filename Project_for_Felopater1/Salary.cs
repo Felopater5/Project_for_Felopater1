@@ -113,3 +113,7 @@ namespace Project_for_Felopater1
             }
 
         }
+        private void cbEmps_SelectionChangeCommitted(object sender, EventArgs e)
+        {
+            GetSalary();
+        }
