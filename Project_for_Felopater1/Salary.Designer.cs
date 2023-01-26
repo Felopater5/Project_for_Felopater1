@@ -59,5 +59,6 @@
         private System.Windows.Forms.Button EditBtn;
         private System.Windows.Forms.Button AddBtn;
         private System.Windows.Forms.ComboBox cbEmps;
+        private System.Windows.Forms.TextBox SalAmount;
     }
 }
