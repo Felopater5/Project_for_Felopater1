@@ -127,3 +127,29 @@ namespace Project_for_Felopater1
                 }
                 else
                 {
+                    period = Pdate.Value.Month.ToString() + "" + Pdate.Value.Year.ToString();
+                    int Amount = Dsal * Convert.ToInt32(DAYS.Text);
+                    int days = Convert.ToInt32(DAYS.Text);
+                    string Query = "update Salary set Employee={0},Attendance={1},Period='{2}',Amount={3},PayDate='{4}' where SCode={5}";
+                    Query = string.Format(Query, Convert.ToInt32(cbEmps.SelectedValue.ToString()), days, period, Amount, DateTime.Today.Date, Key);
+                    con.SetData(Query);
+                    ShowSalaeries();
+                    MessageBox.Show("Salary is Updated !!");
+                    cbEmps.SelectedIndex = -1; DAYS.Text = ""; SalAmount.Text = "";
+
+
+                }
+
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
+
+        }
+        private void label9_Click(object sender, EventArgs e)
+        {
+            Login log = new Login();
+            log.Show();
+            this.Hide();
+        }
