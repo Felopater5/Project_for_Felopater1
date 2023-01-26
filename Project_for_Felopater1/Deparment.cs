@@ -104,3 +104,5 @@ private void EmpPage_Click(object sender, EventArgs e)
 {
     Employee emp = new Employee();
     emp.Show();
+    this.Hide();
+}
