@@ -117,3 +117,13 @@ namespace Project_for_Felopater1
         {
             GetSalary();
         }
+        private void EditBtn_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                if (cbEmps.SelectedIndex == -1 || DAYS.Text == "")
+                {
+                    MessageBox.Show("Missing Data !!!");
+                }
+                else
+                {
