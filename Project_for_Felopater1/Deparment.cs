@@ -87,3 +87,12 @@ private void DeleteBtn_Click(object sender, EventArgs e)
         }
         else
         {
+            string Query = "delete Department where DeptId='{0}'";
+            Query = string.Format(Query, key);
+            con.SetData(Query);
+            ShowDepartmentList();
+            MessageBox.Show("Department Deleted!!!");
+        }
+    }
+    catch (Exception ex)
+    {
