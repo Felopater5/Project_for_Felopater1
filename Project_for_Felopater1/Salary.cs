@@ -37,6 +37,9 @@ namespace Project_for_Felopater1
         int Dsal = 0;
         string period = "";
         int d = 1;
+        private void GetSalary()
+        {
+            string Query = "Select EmpSal from Employee where EmpId={0}";
 
 
 
