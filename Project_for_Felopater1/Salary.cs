@@ -26,6 +26,9 @@ namespace Project_for_Felopater1
             string Query = "Select * from Salary";
             SalaryList.DataSource = con.GetData(Query);
         }
+        private void GetEmployee()
+        {
+            string Query = "Select * from Employee";
 
 
 
