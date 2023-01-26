@@ -40,6 +40,7 @@
         private System.ComponentModel.BackgroundWorker backgroundWorker1;
         private System.Windows.Forms.Button EditBtn;
         private Guna.UI2.WinForms.Guna2DataGridView DeptList;
+        private System.Windows.Forms.TextBox DeptName;
 
     }
 }
