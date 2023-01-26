@@ -159,3 +159,9 @@ namespace Project_for_Felopater1
             sal.Show();
             this.Hide();
         }
+        private void label11_Click(object sender, EventArgs e)
+        {
+            Department dep = new Department();
+            dep.Show();
+            this.Hide();
+        }
