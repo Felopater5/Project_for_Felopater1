@@ -35,7 +35,7 @@
         }
 
         #endregion
-        private System.Windows.Forms.Label c
+        private System.Windows.Forms.Label label19;
         private System.Windows.Forms.Label label10;
         private System.Windows.Forms.Label label11;
         private System.Windows.Forms.Label cc;
@@ -50,7 +50,6 @@
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label2;
-        document.getElementById("image").value.split('.')[1]
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.Panel panel1;

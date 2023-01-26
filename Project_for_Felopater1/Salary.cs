@@ -12,9 +12,12 @@ namespace Project_for_Felopater1
 {
     public partial class Salary : Form
     {
+        Functions con;
         public Salary()
         {
             InitializeComponent();
+
+            con = new Functions();
+            ShowSalaeries();
+            GetEmployee();
         }
-    }
-}
