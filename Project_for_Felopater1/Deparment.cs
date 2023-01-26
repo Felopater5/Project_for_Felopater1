@@ -32,5 +32,10 @@ private void AddBtn_Click(object sender, EventArgs e)
         {
             MessageBox.Show("Missing Data !!!");
         }
+        else
+        {
+            string Query = "insert into Department values('{0}')";
+            Query = string.Format(Query, DeptName.Text);
+        }
     }
 }
