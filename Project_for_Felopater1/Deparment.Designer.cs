@@ -37,6 +37,7 @@
 
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.Button AddBtn;
+        private System.ComponentModel.BackgroundWorker backgroundWorker1;
 
     }
 }
