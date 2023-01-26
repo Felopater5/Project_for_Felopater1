@@ -16,7 +16,9 @@ namespace Project_for_Felopater1
         public Deparment()
         {
             InitializeComponent();
+            con = new Functions();
+            ShowDepartmentList();
         }
-
+        private void ShowDepartmentList()
     }
 }
