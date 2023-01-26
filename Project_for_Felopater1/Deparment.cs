@@ -112,3 +112,12 @@ private void label5_Click(object sender, EventArgs e)
     sal.Show();
     this.Hide();
 }
+private void label6_Click(object sender, EventArgs e)
+{
+    Login log = new Login();
+    log.Show();
+    this.Hide();
+}
+
+    }
+}
