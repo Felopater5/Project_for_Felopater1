@@ -77,3 +77,4 @@ private void EditBtn_Click(object sender, EventArgs e)
         MessageBox.Show(ex.Message);
     }
 }
+private void DeleteBtn_Click(object sender, EventArgs e)
