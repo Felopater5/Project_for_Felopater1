@@ -47,3 +47,4 @@ private void AddBtn_Click(object sender, EventArgs e)
     }
 }
 int key = 0;
+private void DeptList_CellContentClick(object sender, DataGridViewCellEventArgs e)
