@@ -51,6 +51,10 @@ namespace Project_for_Felopater1
             }
             else if (Convert.ToInt32(DAYS.Text) > 31)
             {
+                MessageBox.Show("Days Can not Be Greater Than 31");
+            }
+            else
+            {
 
 
 
