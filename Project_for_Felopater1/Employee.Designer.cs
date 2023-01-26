@@ -68,3 +68,5 @@
         private System.Windows.Forms.PictureBox pictureBox2;
         private System.Windows.Forms.Button DeleteBtn;
     }
+}
+}
