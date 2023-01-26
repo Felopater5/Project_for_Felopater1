@@ -29,6 +29,14 @@ namespace Project_for_Felopater1
         private void GetEmployee()
         {
             string Query = "Select * from Employee";
+            cbEmps.DisplayMember = con.GetData(Query).Columns["EmpName"].ToString();
+            cbEmps.ValueMember = con.GetData(Query).Columns["EmpId"].ToString();
+            cbEmps.DataSource = con.GetData(Query);
+
+        }
+        int Dsal = 0;
+        string period = "";
+        int d = 1;
 
 
 
