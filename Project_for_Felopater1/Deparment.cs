@@ -25,3 +25,9 @@ namespace Project_for_Felopater1
     DeptList.DataSource = con.GetData(Query);
 }
 private void AddBtn_Click(object sender, EventArgs e)
+{
+    try
+    {
+        if (DeptName.Text == "")
+    }
+}
