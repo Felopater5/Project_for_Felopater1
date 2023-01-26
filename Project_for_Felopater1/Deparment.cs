@@ -37,6 +37,8 @@ private void AddBtn_Click(object sender, EventArgs e)
             string Query = "insert into Department values('{0}')";
             Query = string.Format(Query, DeptName.Text);
             con.SetData(Query);
+            ShowDepartmentList();
+            MessageBox.Show("Department Added!!!");
         }
     }
 }
