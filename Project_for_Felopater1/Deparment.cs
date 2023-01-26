@@ -41,4 +41,5 @@ private void AddBtn_Click(object sender, EventArgs e)
             MessageBox.Show("Department Added!!!");
         }
     }
+    catch (Exception ex)
 }
