@@ -78,3 +78,12 @@ private void EditBtn_Click(object sender, EventArgs e)
     }
 }
 private void DeleteBtn_Click(object sender, EventArgs e)
+{
+    try
+    {
+        if (DeptName.Text == "")
+        {
+            MessageBox.Show("Missing Data !!!");
+        }
+        else
+        {
