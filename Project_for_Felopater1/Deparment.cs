@@ -46,3 +46,4 @@ private void AddBtn_Click(object sender, EventArgs e)
         MessageBox.Show(ex.Message);
     }
 }
+int key = 0;
