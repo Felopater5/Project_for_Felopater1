@@ -43,5 +43,6 @@
         private System.Windows.Forms.TextBox DeptName;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.Label label1;
     }
 }
