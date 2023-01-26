@@ -62,5 +62,5 @@ namespace Project_for_Felopater1
 
         }
         int Key = 0;
-
-
+        private void SalaryList_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
