@@ -43,6 +43,12 @@ namespace Project_for_Felopater1
             Query = string.Format(Query, cbEmps.SelectedValue.ToString());
             foreach (DataRow dr in con.GetData(Query).Rows)
             {
+                Dsal = Convert.ToInt32(dr["EmpSal"].ToString());
+            }
+            if (DAYS.Text == "")
+            {
+                SalAmount.Text = "Rs " + (d * Dsal);
+            }
 
 
 
