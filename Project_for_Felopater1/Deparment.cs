@@ -106,3 +106,9 @@ private void EmpPage_Click(object sender, EventArgs e)
     emp.Show();
     this.Hide();
 }
+private void label5_Click(object sender, EventArgs e)
+{
+    Salary sal = new Salary();
+    sal.Show();
+    this.Hide();
+}
