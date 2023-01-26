@@ -74,3 +74,6 @@ private void EditBtn_Click(object sender, EventArgs e)
     }
     catch (Exception ex)
     {
+        MessageBox.Show(ex.Message);
+    }
+}
