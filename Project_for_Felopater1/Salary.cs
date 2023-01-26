@@ -21,3 +21,8 @@ namespace Project_for_Felopater1
             ShowSalaeries();
             GetEmployee();
         }
+        private void ShowSalaeries()
+        {
+            string Query = "Select * from Salary";
+
+
