@@ -49,4 +49,7 @@
         private System.Windows.Forms.ComboBox cbEmpGen;
         private System.Windows.Forms.ComboBox CbDeptIdEmp;
         private System.ComponentModel.BackgroundWorker backgroundWorker1;
+        private Guna.UI2.WinForms.Guna2DateTimePicker EmpDate;
+        private Guna.UI2.WinForms.Guna2DateTimePicker JDate;
+
     }
