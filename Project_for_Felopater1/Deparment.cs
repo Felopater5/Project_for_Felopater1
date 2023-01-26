@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Project_for_Felopater1;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -100,3 +101,6 @@ private void DeleteBtn_Click(object sender, EventArgs e)
     }
 }
 private void EmpPage_Click(object sender, EventArgs e)
+{
+    Employee emp = new Employee();
+    emp.Show();
