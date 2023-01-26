@@ -153,3 +153,9 @@ namespace Project_for_Felopater1
             log.Show();
             this.Hide();
         }
+        private void label10_Click(object sender, EventArgs e)
+        {
+            Salary sal = new Salary();
+            sal.Show();
+            this.Hide();
+        }
